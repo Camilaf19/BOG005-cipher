@@ -6,33 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
+    <header class="firstlook"> 
       <h1>Crea tu búsqueda del tesoro</h1>
-      <h2>¡Cifra y descifra tus pistas!</h2>
+    </header>
+<h2>¡Cifra y descifra tus pistas!</h2> <br>
+<main class="contentCipher">
 <form>
-  <label>Escribe aquí tu pista: <br> <input type="text" id="Clue" name="Clue"></label>
-  </br>
-  <button name="firstButton">Cifrar pista</button>
-  <br> <p>¿Cúal será la clave?</p> <select name="select">
-    <option value="value1">1</option>
-    <option value="value2">2</option>
-    <option value="value3">3</option>
-    <option value="value4">4</option>
-    <option value="value5">5</option>
-    <option value="value6">6</option>
-    <option value="value7">7</option>
-    <option value="value8">8</option>
-  </select>
-  <br> <label>Tu pista cifrada aquí: <input type="text" id="result" name="result"></label>
-</br>
-</br>
-<label>Descifra aquí tu pista: <br> <input type="text" id="Clue2" name="Clue2"></label>
-<button name="secondButton">Descifrar pista</button>
-</br>
-<label>Tu pista descifrada aquí: <br> <input type="text" id="result2" name="result2"></label>
+  <label>Escribe aquí tu pista:</label> <input type="text" id="Clue" name="Clue"> 
+  <p>¿Cúal será la clave?</p> 
+  <input type="number" name="select" id="password1">
+     <br>
+  <button id="btCifrar" name="firstButton">Cifrar pista</button>
+   <label>Tu pista cifrada aquí: </label> 
+  <input type="text" id="result" name="result">
+<br>
+</main>
+<aside class="contentnotcipher">
+<label>Descifra aquí tu pista:</label> <input type="text" id="Clue2" name="Clue2">
+<button  id="btDescifrar" name="secondButton">Descifrar pista</button>
+<br>
+<label>Tu pista descifrada aquí:</label> <br>
+ <input type="text" id="result2" name="result2">
 </br>
  </form>
-    </div>
+</aside>
     <script src="index.js" type="module"></script>
   </body>
+
 </html>
