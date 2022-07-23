@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 * {
-    font-family: 'Rubik', sans-serif;
-    background-color: white;
+    font-family: 'Rubik', sans-serif;  
+}
+
+.flex {
+  display: flexbox;
+  
+}
+
+body {
+  background-image: url(./Fondo-cipher.jpg);
 }
 h1 {
     background-color:white;
     display: flex;
     justify-content: center;
 align-items: center;
-padding:0px;
-color:#A93226;
+padding:0px 0px;
+color:black;
 font-size: 40px;
-margin: 10px 10px;
+margin:0px;
+border:0px;
+
 }
  
 h2 {
@@ -19,40 +29,50 @@ h2 {
     display: flex;
     justify-content: center;
 align-items: center;
-padding: none;
-color:#EC7063 ;
-font-size: 20px;
+padding: 5px 5px;
+color: #A93226;
+font-size: 22px;
 margin-block-end: 0px;
 margin-block-start: 0px;
 }
 
 .contentCipher {
-background-color: #FFAE18;
+    background-color: #FFAE18;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px;
+  margin-left: 0px;
+  color: black;
+  box-shadow: 4px 4px 20px 0px #DC7633;
+
+}
+form {
+  background-color: #FFAE18;
 display: inline-block;
 width: 45%;
 height: 45%;
 margin: 0px 10px;
 margin-left: 57px;
 color: black;
-box-shadow: 4px 4px 20px 0px #DC7633;
-}
 
+}
 
 #Clue { 
     background-color:white;
     width: 450px;
-    height: 160px;
+    height: 100px;
     display: flex;
    border-width: 1px;
    border-color: white;
    border-radius: 5px;
-   margin: 10px 50px;
+   margin: 7px 50px;
   }
   
   #result {
 background-color:white;
     width: 450px;
-    height: 160px;
+    height: 100px;
     display: flex;
    border-width: 1px;
    border-color: white;
@@ -64,13 +84,12 @@ background-color:white;
   #btCifrar {
     border: none;
     background-color:#FF5733;
-    padding: 5px 45px;
+    padding: 12px 35px;
     color:white;
     display: inline-block;
-    margin: 5px 190px;
-align-items: center;
+    margin: 10px 190px;
 justify-content: center;
-font-size: 18px;
+font-size: 16px;
 border-radius: 25px;
   }
 
@@ -78,6 +97,7 @@ border-radius: 25px;
     background-color: #FFAE18;
     display: inline-block;
     width: 45%;
+    height: 50%;
     vertical-align: top;
     margin:0px;
     margin-right: 20px;
@@ -90,54 +110,63 @@ border-radius: 25px;
 #Clue2 {
   background-color:white;
   width: 450px;
-  height: 160px;
+  height: 100px;
   display: flex;
  border-width: 1px;
  border-color: white;
  border-radius: 5px;
- margin: 10px 50px;
+ margin: 7px 50px;
 }
 
 #result2 {
   background-color:white;
   width: 450px;
-  height: 160px;
+  height: 100px;
   display: flex;
  border-width: 1px;
- border-color:white;
+ border-color: white;
  border-radius: 5px;
- margin: 10px 50px;
+ margin: 21px 50px;
 }
 #btDescifrar {
   border: none;
-  background-color:#FF5733;
-  padding: 5px 45px;
-  color:white;
-  display: inline-block;
-  margin: 5px 190px;
-align-items: center;
+    background-color:#FF5733;
+    padding: 4px 35px;
+    color:white;
+    display: inline-block;
+    margin: 10px 190px;
 justify-content: center;
-font-size: 18px;  
+font-size: 16px;
 border-radius: 25px;
 }
 #password1 {
-    width: 60px;
-    height: 30px;
+    width: 80px;
+    height: 25px;
 margin:0px;
 justify-content: center;
 text-align: center;
-padding: 10 px;
+padding: 0px 10px;
+border: 1px;
+}
+
+#password2 {
+  width: 80px;
+  height: 25px;
+margin:0px;
+justify-content: center;
+text-align: center;
+padding: 0px 10px;
 border: 1px;
 }
 label {
-  margin: 20px 20px;
+  margin: 18px 20px;
   text-align: center;
   display:block;
   font-size: 18px;
  background-color:#FFAE18;
  }
 p {
-  margin:15px 15px;
+  margin: 2px 15px;
 font-size: 15px;
 display: inline-block;
 text-align: center;
@@ -147,6 +176,3 @@ background-color: #FFAE18;
 
 }
 
-form {
-  background-color: #FFAE18;
-}
