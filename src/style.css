@@ -11,7 +11,7 @@
   align-items:center;
   text-align:center;
   margin: 0 auto;
-  margin-top: 190px;
+  margin-top: 170px;
   border-radius: 50px;
   box-shadow: 4px 4px 20px 0px #DC7633;
 }
@@ -43,7 +43,7 @@ border:none;
 }
 
 body {
-  background-image: url(./Fondo-cipher.jpg);
+  background-image: url(./Fondo-cipher1.jpg);
   margin: 0px;
 }
 h1 {
@@ -57,7 +57,7 @@ font-size: 40px;
 margin:0 auto;
 border:0px;
 height: 70px;
-width: 50%;
+width: 45%;
 }
  
 h2 {
