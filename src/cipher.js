@@ -14,19 +14,20 @@ const cipher = {
         let myString = "";
         for (let i = 0; i < string.length; i++) {
             let ascciNum = string[i].charCodeAt(0);
+            // cifrar minusculas
             if (ascciNum >= 97 && ascciNum <= 122) {
                 let positionMayus = (ascciNum - 97 + offset) % 26 + 97;
                 myString = myString + String.fromCharCode(positionMayus);
             }
+            // cifrar mayusculas
             else if (ascciNum >= 65 && ascciNum <= 90) {
                 let position = (ascciNum - 65 + offset) % 26 + 65;
                 myString = myString + String.fromCharCode(position);
             }
-
-            /*condicional para espacio en blanco en progreso..
-                     if (ascciNum === 32) {
-                            myString = myString + String.fromCharCode(ascciNum);
-                        }    */
+            //condicional para caracteres especiales 
+            else if (ascciNum >= 32 && ascciNum <= 64) {
+                myString = myString + String.fromCharCode(ascciNum);
+            }
         }
 
         return myString
@@ -44,11 +45,10 @@ const cipher = {
         } else if (offset == 0 && string == 0) {
             throw new TypeError;
         }
-        //descifrado
+        //descifrado 
         let mystring2 = "";
         let positionMinus = "";
         for (let i = 0; i < string.length; i++) {
-            //debugger
             let ascciNum2 = string[i].charCodeAt(0);
             //descifrando minusculas 
             if (ascciNum2 >= 97 && ascciNum2 <= 122) {
@@ -73,6 +73,10 @@ const cipher = {
                     positionMinus = positionMinus + 65;
                     mystring2 = mystring2 + String.fromCharCode(positionMinus);
                 }
+            }
+          //condicional para caracteres especiales
+            if (ascciNum2 >= 32 && ascciNum2 <= 64) {
+                mystring2 = mystring2 + String.fromCharCode(ascciNum2);
             }
         }
 
