@@ -133,7 +133,7 @@ border-radius: 25px;
     background-color: #FFAE18;
     display: inline-block;
     width: 45%;
-    height: 50%;
+    height: 55%;
     vertical-align: top;
     margin:0px;
     margin-right: 20px;
@@ -166,11 +166,11 @@ border-radius: 25px;
 }
 #btDescifrar {
   border: none;
-    background-color:#FF5733;
-    padding: 4px 35px;
-    color:white;
-    display: inline-block;
-    margin: 10px 190px;
+  background-color:#FF5733;
+  padding: 12px 35px;
+  color:white;
+  display: inline-block;
+  margin: 10px 190px;
 justify-content: center;
 font-size: 16px;
 border-radius: 25px;
