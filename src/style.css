@@ -102,7 +102,7 @@ color: black;
    border-width: 1px;
    border-color: white;
    border-radius: 5px;
-   margin: 7px 50px;
+   margin: 7px 65px;
   }
   
   #result {
@@ -113,7 +113,7 @@ background-color:white;
    border-width: 1px;
    border-color: white;
    border-radius: 5px;
-   margin: 10px 50px;
+   margin: 10px 65px;
 
   }
 
@@ -133,7 +133,7 @@ border-radius: 25px;
     background-color: #FFAE18;
     display: inline-block;
     width: 45%;
-    height: 55%;
+    height: 56%;
     vertical-align: top;
     margin:0px;
     margin-right: 20px;
@@ -151,7 +151,7 @@ border-radius: 25px;
  border-width: 1px;
  border-color: white;
  border-radius: 5px;
- margin: 7px 50px;
+ margin: 7px 65px;
 }
 
 #result2 {
@@ -162,7 +162,7 @@ border-radius: 25px;
  border-width: 1px;
  border-color: white;
  border-radius: 5px;
- margin: 21px 50px;
+ margin: 21px 65px;
 }
 #btDescifrar {
   border: none;
